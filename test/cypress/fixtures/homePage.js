@@ -1,16 +1,14 @@
 require('cypress-xpath');
 
 export class HomePage {
-    constructor() {
-        
-    }
+
 
     messages = {
-        messageSuccess: () => cy.get('.message-success'), 
+        messageSuccess: () => cy.get('.message-success'),
     }
 
     // labels = {
-        
+
     // }
 
     elements = {
