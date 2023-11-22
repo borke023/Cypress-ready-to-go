@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chai-json-schema-ajv": "^5.2.4",
     "cypress": "^13.5.0",
     "cypress-xpath": "^2.0.1"
   }

@@ -20,6 +20,7 @@ describe('Add to Cart automated tests', function () {
         selectProductAddToCart(productOneName,'XL','Green');
         hp.messages.messageSuccess().should('contain', `You added ${productOneName} to your shopping cart.`);
         //!Ulazi u cart preko male cart ikonice u nav menu
+        cy.wait(2000);
         hp.elements.cartIcon().click();
         cy.wait(2000);
         //? Ovaj ovde assert nekada padne iako se pokaze poruka u cartu ne bude item
